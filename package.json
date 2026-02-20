@@ -1,11 +1,11 @@
 {
-    "name": "NEEL-koirala-portfolio",
+    "name": "NEEL-khot-portfolio",
     "version": "1.0.0",
     "description": "Neel Khot's Portfolio",
     "main": "index.js",
     "scripts": {
       "dev": "vite",
-      "build": "vite build",
+      "build": "chmod +x node_modules/.bin/vite && vite build",
       "preview": "vite preview",
       "host": "vite --host"
     },
